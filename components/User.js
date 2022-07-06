@@ -10,7 +10,7 @@ const User = () => {
     <View>
       {
         users.map((user, index)=>{
-          return <Text key={user.id}>
+          return <Text style={{color:'blue', fontWeight:'bold'}} key={user.id}>
                     {index+1}. {user.name}
                  </Text>
         })
