@@ -8,6 +8,8 @@ import Count from './components/Count'
 import InputText from './components/InputText'
 import UserNameandPassword from './components/UserNameandPassword'
 import UserNamePassword from './components/UserNamePassword'
+import AlertComponent from './components/AlertComponent'
+import ImageWithTextInput from './components/ImageWithTextInput'
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
       {/* <InputText/> */}
       {/* <UserNameandPassword/> */}
       <UserNamePassword/>
+      {/* <AlertComponent/> */}
+      {/* <ImageWithTextInput/> */}
     </View>
   )
 }
