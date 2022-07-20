@@ -41,7 +41,7 @@ const AlertComponent = () => {
 
 export default AlertComponent
 
-conststyles = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',

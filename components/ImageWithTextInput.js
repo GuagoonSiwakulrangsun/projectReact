@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, TextInput, ImageBackground } from 'react-native'
+import { StyleSheet, Text, View, TextInput, Image } from 'react-native'
 import React from 'react'
 
 const ImageWithTextInput = () => {
@@ -7,7 +7,7 @@ const ImageWithTextInput = () => {
       <View style={styles.container}>
         <View style={styles.sectionStyle}>
             <Image
-                source={require('.../assets/input_username.png')}
+                source={require('../assets/input_username.png')}
                 style={styles.imageStyle}
             />
             <TextInput
