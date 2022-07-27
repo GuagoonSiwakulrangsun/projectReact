@@ -13,6 +13,7 @@ import ImageWithTextInput from './components/ImageWithTextInput'
 import ButtonExample from './components/ButtonExample'
 import Touchable_Example from './components/Touchable_Example'
 import TouchablePractice from './components/TouchablePractice'
+import DynamicStyle from './components/DynamicStyle'
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
       {/* <ButtonExample/> */}
       {/* <Touchable_Example/> */}
       <TouchablePractice/>
+      {/* <DynamicStyle/> */}
     </View>
   )
 }

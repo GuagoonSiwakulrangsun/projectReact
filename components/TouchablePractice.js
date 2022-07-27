@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-web'
 const TouchablePractice = () => {
     
     return (
-        <SafeAreaView style={{flex:1}}>
+        <View style={{flex:1}}>
             <View style={styles.container}>
                 <TouchableOpacity
                     style={styles.buttonFacebookStyle}
@@ -41,7 +41,7 @@ const TouchablePractice = () => {
 
                 </TouchableOpacity>
             </View>
-        </SafeAreaView>
+        </View>
 
 
     )
