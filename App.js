@@ -24,7 +24,7 @@ const App = () => {
       {/* <User/> */}
       {/* <LostOfGreetings/> */}
       {/* <MyCustomTextWith/> */}
-      {/* <Count/> */}
+      <Count/>
       {/* <InputText/> */}
       {/* <UserNameandPassword/> */}
       {/* <UserNamePassword/> */}
@@ -35,7 +35,7 @@ const App = () => {
       {/* <TouchablePractice/> */}
       {/* <DynamicStyle/> */}
       {/* <ModalExample/> */}
-      <ModalPractice/>
+      {/* <ModalPractice/> */}
     </View>
   )
 }
